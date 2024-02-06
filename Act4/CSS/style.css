@@ -1,0 +1,57 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 18px;
+  width: 98%; /* Adjust the width as needed */
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end */
+  align-items: center; /* Vertically center items */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  margin-left: 30px; /* Adjust the margin for spacing */
+}
+
+.logo-container h2 {
+  margin-right: 5px; /* Adjust the margin between the title and logo */
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2, h3, p {
+  text-align: justify;
+}
+
+.What {
+  margin: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
